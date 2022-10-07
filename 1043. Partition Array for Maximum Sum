@@ -1,0 +1,21 @@
+class Solution {
+public:
+    int maxSumAfterPartitioning(vector<int>& arr, int k) {
+       
+        int n = arr.size();
+		vector<int>dp(n+1,0);
+		int maxi = -1e9;
+		for(int index=n-1;index>=0;index--)
+		{
+			int maxEl = -1;
+			for(int i=index;i<min(index+k,n);i++)
+			{
+				maxEl = max(maxEl,arr[i]);
+				int x = (maxEl*(i-index+1))+dp[i+1];
+				maxi = max(maxi,x);
+			}
+			dp[index] = maxi;
+		}
+        return dp[0];
+    }
+};
