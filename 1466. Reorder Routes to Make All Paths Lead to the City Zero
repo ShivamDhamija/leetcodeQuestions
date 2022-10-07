@@ -1,0 +1,48 @@
+class Solution {
+public:
+    int minReorder(int n, vector<vector<int>>& c) {
+        vector<int>v(n);
+        v[0]=1;
+        vector<vector<int>>vec(n,vector<int>());
+        set<pair<int,int>>s;
+        for(auto i:c)
+        {
+            vec[i[0]].push_back(i[1]);
+            vec[i[1]].push_back(i[0]);
+            s.insert({i[0],i[1]});
+        }
+        int ans=0;
+        
+        queue<int>q;
+        
+        q.push(0);
+        while(!q.empty())
+        {
+            int i=q.front();
+            q.pop();
+            v[i]=1;
+            for(auto j:vec[i])
+            {
+                if(v[j]==0)
+                {
+                    if(s.find({j,i})==s.end())
+                        ans++;
+                    q.push(j);
+                }
+            }
+        }
+        
+        
+        return ans;
+    }
+};
+
+
+
+
+
+
+
+
+
+
