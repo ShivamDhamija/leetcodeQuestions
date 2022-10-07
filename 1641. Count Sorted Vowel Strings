@@ -1,0 +1,24 @@
+class Solution {
+public:
+    vector<vector<int>> dp;
+    int solve(int n,int ch,string& str)
+    {    
+        if(n==0)
+        {
+            return 1;
+        }
+        if(dp[n][ch]!=-1) return dp[n][ch];
+        int ans=0;
+        for(int i=0;i<5;i++)
+        {
+            if(str[i]>=str[ch])
+                ans+=solve(n-1,i,str);
+        }
+        return dp[n][ch]=ans;
+    }
+    int countVowelStrings(int n) {
+        dp.resize(56,vector<int>(6,-1));
+        string str="aeiou";
+        return solve(n,0,str);
+    }
+};
