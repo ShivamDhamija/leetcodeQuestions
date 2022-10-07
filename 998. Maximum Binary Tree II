@@ -1,0 +1,33 @@
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ * };
+ */
+class Solution {
+public:
+    bool find=false;
+    TreeNode* insertIntoMaxTree(TreeNode* r, int val) {
+        if(find)return r;
+        if(!r&&!find){
+            find=true;
+            return new TreeNode(val);
+        }
+        if(!r)return NULL;
+        
+        if(r->val<val)
+        {
+            TreeNode *ne=new TreeNode(val,r,NULL);
+            find=true;
+            return ne;
+        }
+        r->right=insertIntoMaxTree(r->right,val);
+        r->left=insertIntoMaxTree(r->left,val);
+        return r;
+    }
+};
