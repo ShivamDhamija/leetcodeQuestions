@@ -1,0 +1,21 @@
+class Solution {
+public:
+    vector<vector<int>>dp;
+    int call(int n,int i)
+    {
+        if(i==1)return n;
+        if(n==1||n==0)return n;
+        if(dp[n][i]!=-1)return dp[n][i];
+        int mi=INT_MAX;
+        for(int j=1;j<=n;j++)
+        {
+            int ma=1+max(call(j-1,i-1),call(n-j,i));
+                mi=min(ma,mi);
+        }
+        return dp[n][i]=mi;
+    }
+    int twoEggDrop(int n) {
+        dp.resize(n+1,vector<int>(3,-1));
+        return call(n,2);
+    }
+};
