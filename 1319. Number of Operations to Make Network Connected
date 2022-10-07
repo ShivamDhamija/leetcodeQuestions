@@ -1,0 +1,71 @@
+class Solution {
+public:
+    vector<int>parent;
+    vector<int>height;
+    int findParent(int i)
+    {
+        if(parent[i]==-1)return i;
+        parent[i]=findParent(parent[i]);
+        return parent[i];
+    }
+    int findHeight(int i)
+    {
+        return height[i];
+    }
+    bool areConnected(int a,int b)
+    {
+        return findParent(a)==findParent(b);
+    }
+    void doUnion(int a,int b)
+    {
+        int p1=findParent(a);
+        int p2=findParent(b);
+        
+        int h1=findHeight(p1);
+        int h2=findHeight(p2);
+        if(h1>h2)
+        {
+            parent[p2]=p1;
+        }
+        else if(h2>h1)
+        {
+            parent[p1]=p2;
+        }
+        else
+        {
+            parent[p2]=p1;
+            height[p1]++;
+        }
+            
+    }
+    int makeConnected(int n, vector<vector<int>>& c) {
+        parent.resize(n,-1);
+        height.resize(n,1);
+        
+        int no=0;
+        
+        
+        for(auto i:c)
+        {
+            if(areConnected(i[0],i[1]))
+                no++;
+            else
+                doUnion(i[0],i[1]);
+        }
+        
+        
+        int count=-1;
+        for(int i=0;i<n;i++)
+            if(parent[i]==-1)
+                count++;
+        
+        if(count<=no)
+            return count;
+        return -1;
+    }
+};
+
+
+
+
+
