@@ -1,0 +1,14 @@
+class Solution {
+public:
+    string firstPalindrome(vector<string>& w) {
+        
+        for(int i=0;i<w.size();i++)
+        {
+            string  t=w[i];
+            reverse(w[i].begin(),w[i].end());
+            if(t==w[i])return w[i];
+        }
+        
+        return "";
+    }
+};
