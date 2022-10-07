@@ -1,0 +1,20 @@
+class Solution {
+public:
+    string reverseOnlyLetters(string s) {
+        string s2="";
+        for(auto i:s)
+        {
+            if((i>='a'&&i<='z')||(i>='A'&&i<='Z'))
+                s2.push_back(i);
+        }
+        for(int i=0;i<s.size();i++)
+        {
+           if((s[i]>='a'&&s[i]<='z')||(s[i]>='A'&&s[i]<='Z'))
+           {
+               s[i]=s2[s2.size()-1];
+               s2.pop_back();
+           }
+        }
+        return s;
+    }
+};
