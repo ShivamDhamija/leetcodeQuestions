@@ -1,0 +1,65 @@
+class Solution {
+public:
+    struct pa{
+        int fi,se,th;
+        pa(int a,int b, int c)
+        {
+            fi=a;
+            se=b;
+            th=c;
+        }
+    };
+    struct comp{
+        bool operator()(pa a,pa b)
+        {
+           return a.se>b.se;
+        }
+    };
+    
+    int findCheapestPrice(int n, vector<vector<int>>& fli, int src, int dst, int K) {
+        
+        priority_queue<pa,vector<pa>,comp>p;
+        
+        vector<vector<pair<int,int>>>v(n);
+        
+        for(int i=0;i<fli.size();i++)
+        {
+            int a=fli[i][0],b=fli[i][1],c=fli[i][2];
+            v[a].push_back({b,c});
+        }
+        
+        vector<int>val(n,INT_MAX);
+        vector<int>stop(n,INT_MAX);
+        p.push({src,0,0});
+        
+        while(!p.empty())
+        {
+            pa f=p.top();
+            p.pop();
+            
+            
+            int i=f.fi;
+            int j=f.se;
+            int m=f.th;
+               
+            if(i==dst)return j;
+            if(m==K+1)continue;
+            
+            for(int k=0;k<v[i].size();k++)
+            {
+                int a=v[i][k].first,b=v[i][k].second;
+                
+               if(val[a]>b+j||m+1<stop[a])
+               {
+                    val[a]=b+j;
+                   stop[a]=m+1;
+                   p.push({a,b+j,m+1});
+               }   
+            }
+        }
+        
+        
+        
+        return val[dst]==INT_MAX?-1:val[dst];
+    }
+};
