@@ -1,0 +1,21 @@
+#include<bits/stdc++.h>
+class Solution {
+public:
+    int majorityElement(vector<int>& n) {
+        int l=n.size(),no,ma=0;
+        unordered_map<int,int>m;
+        for(int i=0;i<l;i++)
+        {
+         if(m.find(n[i])==m.end())
+             m[n[i]]=1;
+            else
+                m[n[i]]=m[n[i]]+1;
+         if(m[n[i]]>ma)
+         {
+             ma=m[n[i]];
+             no=n[i];
+         }
+        }
+        return no;
+    }
+};
