@@ -1,0 +1,16 @@
+class Solution {
+public:
+    int minimumSum(int n) {
+        int a=n%10;
+        n=n/10;
+        int b=n%10;
+        n=n/10;
+        int c=n%10;
+        n=n/10;
+        vector<int>v={a,b,c,n};
+        sort(v.begin(),v.end());
+         a=v[0]*10+v[2];
+        b=v[1]*10+v[3];
+        return a+b;
+    }
+};
