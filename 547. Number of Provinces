@@ -1,0 +1,70 @@
+class Solution {
+public:
+    vector<int>parent;
+    vector<int>height;
+    
+    int h(int i)
+    {
+        return height[i];
+    }
+    
+    int p(int i)
+    {
+        while(parent[i]!=i)
+        {
+            i=parent[i];
+        }
+        return i;
+    }
+    
+    
+    void connect(int i,int j,int val)
+    {
+        if(!val)return ;
+        
+        int p1=p(i);
+        int p2=p(j);
+         
+        if(p1==p2)return ;
+        
+        int h1=h(p1);
+        int h2=h(p2);
+        
+        if(h1>h2)
+        {
+            parent[p2]=p1;
+        }
+        if(h2>h1)
+        {
+            parent[p1]=p2;
+        }
+        if(h1==h2)
+        {
+            parent[p2]=p1;
+            height[p1]++;
+        }
+    }
+    
+    int findCircleNum(vector<vector<int>>& c) {
+        int s=c.size();
+        parent.resize(s);
+        height.resize(s,1);
+        for(int i=1;i<s;i++)
+            parent[i]=i;
+        
+        for(int i=0;i<s;i++)
+        {
+            for(int j=0;j<s;j++)
+            {
+                connect(i,j,c[i][j]);
+            }
+        }
+        
+        
+        int ans=0;
+        
+        for(int i=0;i<s;i++)
+            if(parent[i]==i)ans++;
+        return ans;
+    }
+};
