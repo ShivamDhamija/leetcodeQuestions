@@ -1,0 +1,73 @@
+class Solution {
+public:
+    vector<int>parent;
+    vector<int>height;
+    int findParent(int n)
+    {
+         while(parent[n]!=n)
+         {
+             n=parent[n];
+         }
+       
+        return n;
+    }
+    int findHeight(int n)
+    {
+        return height[n];
+    }
+    void doUnion(int i,int j)
+    {
+        int p1=findParent(i);
+        int p2=findParent(j);
+        
+        int h1=findHeight(p1);
+        int h2=findHeight(p2);
+        
+        if(h1>h2)
+        {
+            parent[p2]=p1;
+        }
+        else if(h2>h1)
+        {
+            parent[p1]=p2;
+        }
+        else
+        {
+            parent[p2]=p1;
+            height[p1]++;
+        }
+    }
+    bool areJoin(int i,int j)
+    {
+        int p1=findParent(i);
+        int p2=findParent(j);
+        return p1==p2;
+    }
+    
+    vector<int> findRedundantConnection(vector<vector<int>>& e) {
+        vector<int>ans;
+       
+        parent.resize(e.size()+1);
+        height.resize(e.size()+1,1);
+        
+        for(int i=0;i<=e.size();i++)
+            parent[i]=i;
+        
+        for(int i=0;i<e.size();i++)
+        {
+            int x=e[i][0],y=e[i][1];
+
+            if(areJoin(x,y))
+            {
+                ans={x,y};
+            }
+            else
+            {
+                doUnion(x,y);
+            }
+        }
+        
+        
+        return ans;
+    }
+};
