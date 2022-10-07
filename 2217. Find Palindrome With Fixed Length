@@ -1,0 +1,23 @@
+class Solution {
+public:
+    vector<long long> kthPalindrome(vector<int>& q, int il) {
+        int l=(il+1)/2;
+        int ll=pow(10,l-1);
+        int rl=pow(10,l)-1;
+        int range=rl-ll+1;
+        vector<long long>v;
+        for(int i=0;i<q.size();i++){
+            if(q[i]<=range){
+               string a=to_string(ll+q[i]-1);
+               string b=a;
+                if(il%2==1)b.pop_back();
+                reverse(b.begin(),b.end());
+                string c=a+b;
+                v.push_back(stoll(c));
+            }
+            else v.push_back(-1);
+        }
+        return v;
+        
+    }
+};
