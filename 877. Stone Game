@@ -1,0 +1,43 @@
+class Solution {
+public:
+    bool stoneGame(vector<int>& pi) {
+        int a=0,b=0;
+        deque<int>p;
+        for(auto i:pi)
+            p.push_back(i);
+        int i=0;
+        while(p.size()>0)
+        {
+            if(i==0)
+            {
+                i=1;
+                if(p.front()>p.back())
+                {
+                    a+=p.front();
+                    p.pop_front();
+                }
+                else
+                {
+                    a+=p.back();
+                    p.pop_back();
+                }
+             }
+            else
+            {
+                i=0;
+                if(p.front()<p.back())
+                {
+                    b+=p.front();
+                    p.pop_front();
+                }
+                else
+                {
+                    b+=p.back();
+                    p.pop_back();
+                }
+            }
+        }
+        
+        return a>b;
+    }
+};
