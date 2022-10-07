@@ -1,0 +1,36 @@
+class Solution {
+public:
+    vector<int> pathInZigZagTree(int n) {
+        int llv = 1;
+    int ctv=0;
+    while(llv < n)
+    {
+        //ctv+=llv;
+        llv = llv*2;
+    }
+    if(llv!=n)
+    llv = llv / 2;
+    
+    vector<int> ans;
+    
+    while(n != 1)
+    {
+        ans.push_back(n);
+        
+        int comp = 3*llv-n-1;
+        
+        int par = comp /2;
+        
+        n = par;
+        
+        llv = llv /2;
+    }
+    
+    ans.push_back(1);
+    
+    reverse(ans.begin(),ans.end());
+    
+    return ans;   
+    
+    }
+};
