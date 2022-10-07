@@ -1,0 +1,80 @@
+class Solution {
+public:
+    vector<int>parent;
+    vector<int>height;
+    int findParent(int i)
+    {
+        if(parent[i]==-1)return i;
+        parent[i]=findParent(parent[i]);
+        return parent[i];
+    }
+    int findHeight(int i)
+    {
+        return height[i];
+    }
+    bool areConnected(int a,int b)
+    {
+        return findParent(a)==findParent(b);
+    }
+    void doUnion(int a,int b)
+    {
+        int p1=findParent(a);
+        int p2=findParent(b);
+        
+        int h1=findHeight(p1);
+        int h2=findHeight(p2);
+        if(h1>h2)
+        {
+            parent[p2]=p1;
+        }
+        else if(h2>h1)
+        {
+            parent[p1]=p2;
+        }
+        else
+        {
+            parent[p2]=p1;
+            height[p1]++;
+        }
+            
+    }
+    set<pair<int,int>>s;
+    int findMax(vector<int>&v)
+    {
+        int ans=0;
+        for(int i=0;i<v.size();i++)
+        {
+            for(int j=i+1;j<v.size();j++)
+            {
+                int c=v[i]+v[j];
+                if(s.find({i,j})!=s.end()||s.find({j,i})!=s.end())
+                    c--;
+                ans=max(ans,c);
+            }
+        }
+        return ans;
+    }
+    int maximalNetworkRank(int n, vector<vector<int>>& roads) {
+        // parent.resize(n,-1);
+        // height.resize(n,1);
+        
+        vector<int>v(n);
+        for(auto i:roads)
+        {
+            s.insert({i[0],i[1]});
+            s.insert({i[1],i[0]});
+            v[i[0]]++;
+            v[i[1]]++;
+        }
+       
+        
+        return findMax(v);
+    }
+};
+
+
+
+
+
+
+
