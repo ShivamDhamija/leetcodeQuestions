@@ -1,0 +1,26 @@
+class Solution {
+public:
+    bool check (vector<vector<int>>& m,int i,int j)
+    {
+        if(i<0||j<0||i>=m.size()||j>=m[0].size())return false;
+        return m[i][j]>0&&m[i+1][j]>0&&m[i][j+1]>0&&m[i+1][j+1]>0;
+    }
+    int countSquares(vector<vector<int>>& m) {
+     for(int i=m.size()-2;i>=0;i--)   
+         for(int j=m[0].size()-2;j>=0;j--)
+         {
+             if(check(m,i,j))
+                { m[i][j]+=min(min(m[i+1][j+1],m[i+1][j]),m[i][j+1]);
+              //  if(j==0)cout<<i<<" "<<j<<" ";
+                }
+                    }
+    
+    int ans=0;
+    for(int i=0;i<m.size();i++)
+        {for(int j=0;j<m[0].size();j++)
+           {ans+=m[i][j];//cout<<m[i][j]<<" ";
+           }
+   // cout<<endl;
+        }return ans;
+    }               
+};
