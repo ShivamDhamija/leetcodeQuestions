@@ -1,0 +1,28 @@
+class Solution {
+public:
+    int longestPalindrome(string s) {
+        int arr[53] = {0};
+		int n = s.length();
+		for(int i=0; i<n;i++){
+			if(s[i] >= 'A' && s[i]<='Z'){
+				arr[(s[i]-'A')+26]++;
+			}
+			else
+				arr[s[i]-'a']++;
+		}
+		bool x = false;
+		int cnt =0;
+		for(int i=0; i<53; i++){
+			if(arr[i]%2!=0){
+				cnt += arr[i]-1;
+				x=true;
+			}
+			else
+				cnt += arr[i];
+		}
+		if(x){
+			cnt+=1;
+		}
+		return cnt;
+    }
+};
