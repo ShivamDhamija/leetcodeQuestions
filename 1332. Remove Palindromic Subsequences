@@ -1,0 +1,18 @@
+class Solution {
+public:
+    int isPalindrome(string str){
+        if (str.length()==1)
+            return 1;
+        int i=0,j=str.length()-1;
+        while(i<j){
+            if(str[i]!=str[j])
+                return 2;
+            i++;
+            j--;
+        }
+        return 1;
+    }
+    int removePalindromeSub(string s) {
+        return isPalindrome(s);
+    }
+};
