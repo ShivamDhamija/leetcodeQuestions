@@ -1,0 +1,13 @@
+class Solution {
+public:
+    bool canConstruct(string s, int k) {
+        if(s.size()<k)return 0;
+        unordered_map<char,int>m;
+        for(auto i:s)
+            m[i]++;
+        int no=0;
+        for(auto i:m)
+            if(i.second%2!=0)no++;
+        return no<=k;
+    }
+};
