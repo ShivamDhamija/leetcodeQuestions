@@ -12,16 +12,19 @@ public:
     }
     void call(vector<int>& n,vector<int>& v,int i)
     {
-        if(v.size()>1&&check(v))
+        if(v.size()>1)
             s.insert(v);
         if(i==n.size())
         {
             
             return ;
         }
-        v.push_back(n[i]);
-        call(n,v,i+1);
-        v.pop_back();
+        if(v.size()==0||v[v.size()-1]<=n[i])
+        {
+            v.push_back(n[i]);
+            call(n,v,i+1);
+            v.pop_back();
+        }
         call(n,v,i+1);
            
     }
