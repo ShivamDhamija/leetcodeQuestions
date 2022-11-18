@@ -6,7 +6,7 @@ public:
         int start = 0, maxCount = 0, maxLength = 0;
         for (int end = 0; end < len; end++) {
             maxCount = max(maxCount, ++count[s[end] - 'A']);
-            while (end - start + 1 - maxCount > k) {
+            if(end - start + 1 - maxCount > k) {
                 count[s[start] - 'A']--;
                 start++;
             }
