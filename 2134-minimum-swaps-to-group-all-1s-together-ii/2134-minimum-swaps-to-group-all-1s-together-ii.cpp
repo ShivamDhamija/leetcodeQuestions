@@ -7,9 +7,6 @@ public:
             if(n[i]==1)
                 count++;
         }
-         vector<int> n2(n.size() * 2);
-    for (int i = 0; i < n.size() * 2; i++)
-        n2[i] = n[i % n.size()];
         
         for(int i=0;i<count;i++)
         {
