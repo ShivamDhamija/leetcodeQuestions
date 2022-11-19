@@ -13,18 +13,18 @@ public:
         
         for(int i=0;i<count;i++)
         {
-            if(n2[i]==0)
+            if(n[i]==0)
             {
                 no++;
             }
         }
        
          int ans=no;
-        for(int i=count;i<n2.size();i++)
+        for(int i=count;i<n.size()*2;i++)
         {
-            if(n2[i-count]==0)
+            if(n[(i-count)%n.size()]==0)
                 no--;
-            if(n2[i]==0)
+            if(n[i%n.size()]==0)
                 no++;
             ans=min(ans,no);
         }
