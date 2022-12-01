@@ -1,57 +1,27 @@
-int ans=0;
-struct Node{
-    Node* links[26];
-    int ew=0;
-    
-    bool isThere(char ch){
-        return links[ch-'a']!=NULL;
-    }
-    void put(char ch){
-        links[ch-'a']=new Node();
-    }
-    Node* get(char ch){
-        return links[ch-'a'];
-    }
-};
-class Trie{
-public:
-    Node* root=new Node();
-    void insert(string& str){
-        Node* node=root;
-        for(int i=0;i<str.size();++i){
-            if(!node->isThere(str[i]))node->put(str[i]);
-            node=node->get(str[i]);
-        }
-        node->ew++;
-        return ;
-    }
-
-    int index(string& str, int ind, char ch){
-        for(int i=ind;i<str.size();++i)if(str[i]==ch)return i;
-        return -1;
-    }
-    void check(string& str, int ind,Node* cur){
-        for(int i=0;i<26;++i){
-            char ch='a'+i;
-            if(cur->isThere(ch)){
-                int idx=index(str,ind,ch);
-                if(idx!=-1){
-                    Node* node=cur->get(ch);
-                    ans+=node->ew;
-                    check(str,idx+1,node);
-                }                
-            }
-        }
-        return ;
-    }
-};
 class Solution {
 public:
     int numMatchingSubseq(string s, vector<string>& words) {
-        ans=0;
-        Trie trie;
-        for(auto& it:words)trie.insert(it);
-        trie.check(s,0,trie.root);
-        return ans;
+        int count = 0;
+        //we will be form map to count occurences of particular word to avoid re calculation and this will reduce time
+        unordered_map<string,int> mp;
+        for(int i= 0; i < words.size(); i++){
+            mp[words[i]]++;
+        }
+        for(auto x : mp){
+            string str = x.first;
+            int n = str.size();
+            int i = 0, j = 0;
+            while(i < n && j < s.size()){
+                if(str[i] == s[j]){
+                    i++;
+                }
+                j++;
+            }
+            if(i == n){
+                count += x.second;  //if we reach the length of string str then this word in our string s. so we increase our count by the number of times it occurred in words instead of incrementing by 1
+            }
+        }
+        
+        return count++;
     }
 };
