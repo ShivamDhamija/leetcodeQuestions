@@ -1,18 +1,16 @@
 class Solution {
 public:
     int integerBreak(int n) {
-        vector<int> maxProd (n + 1);
-        for (int i = 1; i < n; i++) {
-            maxProd[i] = i;
+        if(n==2) return 1;
+        if(n==3) return 2;
+        int product = 1;
+        while(n>4){
+            product*=3;
+            n-=3;
         }
+        product*=n;
         
-        // 2.Compute max product
-        for (int i = 2; i <= n; i++) {
-            for (int j = 1; j <= i - j; j++) { // Note: only check j <= i - j
-                maxProd[i] = max(maxProd[i], maxProd[j] * maxProd[i - j]);
-            }
-        }
-        return maxProd[n];
+        return product;
     }
 };
 // 6=> 1*5 2*4 3*3 
