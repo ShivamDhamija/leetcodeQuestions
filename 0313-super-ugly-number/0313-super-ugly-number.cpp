@@ -10,23 +10,30 @@ public:
         {
             int j=no[0];
             ll s=p[0]*v[j];
+            int t=0;
             for(int i=1;i<p.size();i++)
             {
                 j=no[i];
-                s=min(s,p[i]*v[j]);
+                ll M=p[i]*v[j];
+                if(s>M)
+                {
+                    s=M;
+                    t=i;
+                }
             }
             if(v.back()!=s)
             v.push_back(s);
-            for(int i=0;i<p.size();i++)
-            {
+            no[t]++;
+//             for(int i=0;i<p.size();i++)
+//             {
                 
-                j=no[i];
-                if(s==p[i]*v[j])
-                {
-                    no[i]++;
-                    break;
-                }
-            }
+//                 j=no[i];
+//                 if(s==p[i]*v[j])
+//                 {
+//                     no[i]++;
+//                     break;
+//                 }
+//             }
           //  cout<<s<<" ";
         }
         
