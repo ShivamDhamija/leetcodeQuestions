@@ -1,20 +1,30 @@
 class Solution {
 public:
-    long long countGood(vector<int>& n, int k) {
-        unordered_map<int,int>m;
-    long long ans=0,count=0;
-        
-        for(int i=0,j=0;j<n.size();j++)
-        {
-            count+=m[n[j]];
-            m[n[j]]++;
-            while(count>=k)
-            {
-                m[n[i]]--;
-                count-=m[n[i]];
-                i+=1;
+    long long calc(long long n) {
+        long long ans = n * (n-1);
+        ans /= 2;
+        return ans;
+    }
+
+    long long countGood(vector<int>& nums, int k) {
+        int n = nums.size();
+        int i = 0, j = 0;
+        long long ans = 0, curr = 0;
+        unordered_map<int, long long>freq;
+
+        while (j < n) {
+            curr -= calc(freq[nums[j]]);
+            freq[nums[j]]++;
+            curr += calc(freq[nums[j]]);
+
+            while (i < j && curr >= k) {
+                ans += n-j;
+                curr -= calc(freq[nums[i]]);
+                freq[nums[i]]--;
+                curr += calc(freq[nums[i]]);
+                i++;
             }
-            ans+=i;
+            j++;
         }
         return ans;
     }
