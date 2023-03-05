@@ -2,7 +2,7 @@ class Solution {
 public:
     vector<int> factorize(int n) {
     vector<int> res;
-    for (int i = 2; i < 1000; i += 1)
+    for (int i = 2; i < 1000; i += 1+(i%2))
         if (n % i == 0) {
             res.push_back(i);
             while(n % i == 0)
