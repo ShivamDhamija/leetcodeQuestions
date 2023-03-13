@@ -1,12 +1,18 @@
 class Solution {
 public:
     int subarrayLCM(vector<int>& nums, int k) {
-        int res = 0;
-    for (int i = 0; i < nums.size(); ++i)
-        for (int j = i, cur = 1; j < nums.size() && k % nums[j] == 0; ++j) {
-            cur = lcm(cur, nums[j]);
-            res += cur == k;
+    int res = 0;
+    unordered_map<int, int> m;
+    for (int n : nums) {
+        unordered_map<int, int> m1;
+        if (k % n == 0) {
+            ++m[n];    
+            for (auto &[d, cnt] : m)
+                m1[lcm(d, n)] += cnt;
+            res += m1[k];
         }
-    return res;
+        swap(m, m1);
     }
+    return res;
+}
 };
