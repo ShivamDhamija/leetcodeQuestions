@@ -18,22 +18,11 @@ public:
         return gcd(a%b,b);
     }
     ListNode* insertGreatestCommonDivisors(ListNode* h) {
-        queue<int>q;
-        for( auto i = h; i != NULL ;i = i->next)
-            q.push(i->val);
-        int p=q.front();
-        h = new ListNode(q.front());
-         ListNode* temp=h;
-        q.pop();
-        while(q.size()>0)
+        ListNode* p=h;
+        while(p->next)
         {
-            int n=q.front();
-            q.pop();
-            temp->next=new ListNode(gcd(p,n));
-            temp=temp->next;
-            temp->next=new ListNode(n);
-            temp=temp->next;
-            p=n;
+            p->next= new ListNode(gcd(p->val,p->next->val), p->next);
+            p=p->next->next;
         }
         return h;
     }
