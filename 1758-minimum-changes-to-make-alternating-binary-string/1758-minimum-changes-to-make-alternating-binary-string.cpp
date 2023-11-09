@@ -7,7 +7,7 @@ public:
         if(s[i]!=(j+'0'))c++;        
         check(s,i+1,1-j);
     }
-    int minOperations(string s) {
+    int minOperations(string &s) {
         c=0;
         int a=INT_MAX;
         check(s,0,0);
