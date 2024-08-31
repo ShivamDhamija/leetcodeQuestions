@@ -7,9 +7,8 @@ public:
             int m=(l+r)/2;
             if(n[m]>n[r])
                 l=m+1;
-            else 
+            else
                 r=m;
-            
         }
         return n[l];
     }
