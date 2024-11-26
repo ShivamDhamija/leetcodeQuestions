@@ -1,14 +1,10 @@
 class Solution {
 public:
-    vector<int> findArray(vector<int>& p) {
-        int pr=0;
-        vector<int> v;
-        for(int i=0;i<p.size();i++)
-        {
-            int c=pr^p[i];
-            v.push_back(c);
-            pr=c^pr;
-        }
-        return v;
+    vector<int> findArray(vector<int>& v) {
+        vector<int>p(v.size());
+        p[0]=v[0];
+        for(int i=1;i<v.size();i++)
+            p[i]=v[i]^v[i-1];
+        return p;
     }
 };
