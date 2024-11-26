@@ -1,18 +1,19 @@
 class SubrectangleQueries {
 public:
     vector<vector<int>>v;
-    SubrectangleQueries(vector<vector<int>>& rectangle) {
-        v=rectangle;
+    SubrectangleQueries(vector<vector<int>>& r) {
+        v=r;
     }
     
-    void updateSubrectangle(int row1, int col1, int row2, int col2, int newValue) {
-        for(int i=row1;i<=row2;i++)
-            for(int j=col1;j<=col2;j++)
-                v[i][j]=newValue;
+    void updateSubrectangle(int r1, int c1, int r2, int c2, int n) {
+        for(int i=r1;i<=r2;i++)        
+            for(int j=c1;j<=c2;j++)
+                v[i][j]=n;
+        
     }
     
-    int getValue(int row, int col) {
-        return v[row][col];
+    int getValue(int r, int c) {
+        return v[r][c];
     }
 };
 
