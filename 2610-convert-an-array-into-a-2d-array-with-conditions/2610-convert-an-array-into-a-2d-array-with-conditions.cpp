@@ -1,8 +1,11 @@
 class Solution {
 public:
-    void call(vector<vector<int>>&a,unordered_map<int,int>&m)
-    {
-        vector<int>v;
+    vector<vector<int>> findMatrix(vector<int>& n) {
+        vector<vector<int>>a;
+        unordered_map<int,int>m;
+        for(auto i:n)m[i]++;        
+        while(m.size()>0){
+             vector<int>v;
         for(auto I:m)
         {
            int i=I.first;
@@ -15,14 +18,7 @@ public:
                 m.erase(i);
         }
         a.push_back(v);
-    }
-    vector<vector<int>> findMatrix(vector<int>& n) {
-        unordered_map<int,int>m;
-        vector<vector<int>>a;
-        for(auto i:n)
-            m[i]++;
-        while(m.size()>0)
-            call(a,m);
+        }
         return a;
     }
 };
