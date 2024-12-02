@@ -1,18 +1,12 @@
 class Solution {
 public:
     int maxDepth(string s) {
-        int ans=0,count=0;
-      //  stack<int>st;
-        
-        for(auto i:s)
-            if(i=='(')
-            {
-                count++;
-                ans=max(ans,count);
-            }
-        else if(i==')')
-            count--;
-        
-        return ans;
+        int m=0,a=0;
+        for(auto i:s){
+            if(i=='(')a++;
+            else if(i==')')a--;
+            m=max(m,a);
+        }
+        return m;
     }
 };
