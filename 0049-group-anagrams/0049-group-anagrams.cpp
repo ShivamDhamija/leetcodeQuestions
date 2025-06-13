@@ -4,8 +4,8 @@ public:
         vector<vector<string>> ans;
         unordered_map<string,vector<string>> val;
         for(auto i:strs){
-            string v=i;
-            sort(v.begin(),v.end());
+            string v(26,'0');
+            for(auto j:i)v[j-'a']++;
             val[v].push_back(i);
         }
         for(auto i:val)
