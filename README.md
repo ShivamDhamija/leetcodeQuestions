@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0049-group-anagrams](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0217-contains-duplicate) |
 | [0560-subarray-sum-equals-k](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0560-subarray-sum-equals-k) |
@@ -33,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0049-group-anagrams](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0049-group-anagrams) |
 | [0125-valid-palindrome](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0125-valid-palindrome) |
 ## Prefix Sum
@@ -48,4 +50,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0053-maximum-subarray) |
+## Sliding Window
+|  |
+| ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0003-longest-substring-without-repeating-characters) |
 <!---LeetCode Topics End-->
