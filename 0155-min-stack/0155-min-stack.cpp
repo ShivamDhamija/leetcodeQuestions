@@ -1,14 +1,14 @@
 class MinStack {
 public:
-stack<int>s;
-int m;
+stack<long long>s;
+long long m;
     MinStack() {
         
     }
     
     void push(int val) {
         if(s.empty()){s.push(val);m=val;}
-        else if(val<m){s.push(2*val-m);m=val;}
+        else if(val<m){s.push((long long)2*val-m);m=val;}
         else s.push(val);
     }
     
