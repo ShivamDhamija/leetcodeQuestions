@@ -1,31 +1,29 @@
 class MinStack {
 public:
-unordered_map<int,int>count;
-priority_queue<int,vector<int>,greater<int>>q;
 stack<int>s;
+int m;
     MinStack() {
         
     }
     
     void push(int val) {
-        s.push(val);
-        count[val]++;
-        q.push(val);
+        if(s.empty()){s.push(val);m=val;}
+        else if(val<m){s.push(2*val-m);m=val;}
+        else s.push(val);
     }
     
     void pop() {
-        count[s.top()]--;
+        if(s.top()<m)m=2*m-s.top();
         s.pop();
     }
     
     int top() {
-        while(count[s.top()]<=0)s.pop();
+        if(s.top()<m)return m;
         return s.top();
     }
     
     int getMin() {
-        while(count[q.top()]<=0)q.pop();
-        return q.top();
+        return m;
     }
 };
 
