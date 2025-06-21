@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0057-insert-interval](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0057-insert-interval) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0217-contains-duplicate](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0217-contains-duplicate) |
+| [0239-sliding-window-maximum](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0239-sliding-window-maximum) |
 | [0560-subarray-sum-equals-k](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0560-subarray-sum-equals-k) |
 ## Dynamic Programming
 |  |
@@ -58,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0076-minimum-window-substring](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0076-minimum-window-substring) |
+| [0239-sliding-window-maximum](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0239-sliding-window-maximum) |
 ## Stack
 |  |
 | ------- |
@@ -67,4 +69,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0155-min-stack](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0155-min-stack) |
+## Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0239-sliding-window-maximum) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0239-sliding-window-maximum) |
+## Monotonic Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0239-sliding-window-maximum) |
 <!---LeetCode Topics End-->
