@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0238-product-of-array-except-self](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0239-sliding-window-maximum) |
 | [0560-subarray-sum-equals-k](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0560-subarray-sum-equals-k) |
+| [0724-find-pivot-index](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0724-find-pivot-index) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -54,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0238-product-of-array-except-self) |
 | [0560-subarray-sum-equals-k](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0560-subarray-sum-equals-k) |
+| [0724-find-pivot-index](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0724-find-pivot-index) |
 ## Two Pointers
 |  |
 | ------- |
