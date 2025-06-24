@@ -1,38 +1,21 @@
 class Solution {
 public:
-    int call(vector<int>&n, int t,int l,int h)
-    {
-        while(l<=h)
-        {
-            int m=(h+l)/2;
-            if(n[m]<t)
-                l=m+1;
-            else
-                h=m-1;
+    void find(vector<int>&n, int t, int l, int r, int &a){
+        if(l>r)return ;
+        int m = (l+r)/2;
+        if(n[m]==t){a=m;return ;}
+        if(n[m]>=n[l]){
+            if(n[l]<=t && t<n[m])find(n,t,l,m-1,a);
+            else find(n,t,m+1,r,a);
         }
-        return n[l]==t?l:-1;
+        else {
+            if(t>n[m]&& t<=n[r])find(n,t,m+1,r,a);
+            else find(n,t,l,m-1,a);
+        }
     }
-    int search(vector<int>& n, int t) {
-        int l=0, h=n.size()-1;
-        int no=n.size()-1;
-        while(l<=h)
-        {
-            int m=(l+h)/2;
-            if(m>0&&n[m]<n[m-1])
-            {
-                l=m;break;
-            }
-            if(n[m]>n[h])
-                l=m+1;
-            else
-                h=m-1;
-        }
-       //  cout<<l;
-        if(n[l]<=t&&n[no]>=t)
-            return call(n,t,l,no);
-        else if(l>0)
-            return call(n,t,0,l-1);
-       
-        return -1;
+    int search(vector<int>& nums, int target) {
+        int a=-1;
+        find(nums,target,0,nums.size()-1,a);
+        return a;        
     }
 };
