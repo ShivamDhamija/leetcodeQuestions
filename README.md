@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0057-insert-interval) |
+| [0078-subsets](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0078-subsets) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0153-find-minimum-in-rotated-sorted-array) |
@@ -193,4 +194,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0133-clone-graph](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0133-clone-graph) |
+## Backtracking
+|  |
+| ------- |
+| [0078-subsets](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0078-subsets) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0078-subsets](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
