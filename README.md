@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+| [0200-number-of-islands](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0200-number-of-islands) |
 | [0209-minimum-size-subarray-sum](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0209-minimum-size-subarray-sum) |
 | [0217-contains-duplicate](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0238-product-of-array-except-self) |
@@ -148,12 +149,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0098-validate-binary-search-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0200-number-of-islands](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0200-number-of-islands) |
 | [0226-invert-binary-tree](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0226-invert-binary-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0200-number-of-islands](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0200-number-of-islands) |
 | [0226-invert-binary-tree](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0226-invert-binary-tree) |
 ## Binary Tree
 |  |
@@ -167,4 +170,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0098-validate-binary-search-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+## Union Find
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0200-number-of-islands) |
+## Matrix
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0200-number-of-islands) |
 <!---LeetCode Topics End-->
