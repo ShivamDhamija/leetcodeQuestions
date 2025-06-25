@@ -22,7 +22,6 @@ public:
     }
     bool isValidBST(TreeNode* root) {
         bool a=1;
-        cout<<INT_MAX;
         help(root,a);
         return a;
     }
