@@ -21,36 +21,19 @@ public:
 
 class Solution {
 public:
-    Node* cloneGraph(Node* n) {
-        if(!n)return NULL;
-        unordered_map<int,Node*>m;
-        unordered_set<int>s;
-        queue<Node*>q;
-        q.push(n);
-        m[1] =new Node(1);
-        while(q.size()>0){
-            n = q.front();
-            q.pop();
-            if(!n||s.find(n->val)!=s.end())continue;    
-            int i=0;
-            vector<Node*>o = n->neighbors;
-            vector<Node*>ne ;
-            s.insert(n->val);
-            while(i<o.size())
-            {
-                int c= o[i]->val;
-                Node *t;
-                if(m.find(c)!=m.end())
-                    t=m[c];
-                else
-                {t= new Node(c);m[c]=t;}
-                ne.push_back(t); 
-                q.push(o[i]);
-                i++;               
-            }
-            if(m.find(n->val)==m.end()) m[n->val]=new Node(n->val);
-            m[n->val]->neighbors = ne;              
+    unordered_map<int,Node*>m;
+    Node* cloneGraph(Node* node) {
+        if(!node)return {};
+        int val=node->val;
+        if(m.find(val)!=m.end())return m[val];
+        vector<Node*>p = node->neighbors;
+        vector<Node*>n;
+        Node *a=new Node(val);
+        m[val]= a;
+        for(auto i: p){
+            n.push_back(cloneGraph(i));
         }
-        return m[1];
+        a->neighbors=n;
+        return a;
     }
 };
