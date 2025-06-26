@@ -1,22 +1,23 @@
 class Solution {
 public:
-    void help(string &s,int i,int j,int &I,int &J){
-        while(i>=0&&j<s.size()){
-                if(s[i]==s[j]){
-                    if(j-i+1>J){
-                    I=i;
-                    J=j-i+1;}
-                    i--;
-                    j++;
-                }else break;
-            }
-    }
     string longestPalindrome(string s) {
-        int I=0,J=0,i,j; 
-        for(int k=0;k<s.size();k++)
+       vector<vector<int>>v(s.size(),vector<int>(s.size(),1));
+        int I=0,J=1;
+        for(int i=s.size()-1;i>=0;i--)
         {
-            help(s,k,k,I,J);
-            help(s,k,k+1,I,J);                  
+            for(int j=i+1;j<s.size();j++)
+            {
+                v[i][j]=(s[i]==s[j]&&v[i+1][j-1]);
+                if(v[i][j])
+                {
+                    if(J<(j-i+1))
+                    {
+                        J=j-i+1;
+                        I=i;
+                    }
+                }
+                    
+            }
         }
         return s.substr(I,J);
     }
