@@ -1,15 +1,9 @@
 class Solution {
 public:
-    vector<int>v;
-    int call(vector<int>&n,int i)
-    {
-        if(i>=n.size())return 0;
-        if(v[i]!=-1)return v[i];
-        
-        return v[i]=max(call(n,i+2)+n[i],call(n,i+1));
-    }
-    int rob(vector<int>& n) {
-        v.resize(n.size(),-1);
-        return call(n,0);
+    unordered_map<int,int>m;
+    int rob(vector<int>& nums,int i=0) {
+        if(i>=nums.size())return 0;
+        if(m.find(i)!=m.end())return m[i];
+        return m[i]=max(rob(nums,i+1),rob(nums,i+2)+nums[i]);
     }
 };
