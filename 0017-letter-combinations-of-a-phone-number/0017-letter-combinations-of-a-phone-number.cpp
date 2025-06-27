@@ -1,33 +1,30 @@
 class Solution {
 public:
-    void help(vector<vector<char>>&n,vector<string>&a, int i,string &s, string &d){
-        if(i==s.size()){
-            a.push_back(s);
-            return ;
+    vector<string> letterCombinations(string digits) {
+        vector<string>a;
+        if(digits.size()==0)return a;
+        vector<vector<char>>v;
+        v.push_back({'a','b','c'});
+        v.push_back({'d','e','f'});
+        v.push_back({'g','h','i'});
+        v.push_back({'j','k','l'});
+        v.push_back({'m','n','o'});
+        v.push_back({'p','q','r','s'});
+        v.push_back({'t','u','v'});
+        v.push_back({'w','x','y','z'});      
+        a.push_back("");
+        for(auto i:digits){
+            int j=i-'2';
+            vector<string>t;
+            for(string k : a){
+                for(char l :v[j]){
+                    string st=k;
+                    st.push_back(l);
+                    t.push_back(st);
+                }
+            }
+            a=t;
         }
-        int k = d[i]-'2';
-        for(int j=0;j<3;j++){
-            s[i]=n[k][j];
-            help(n,a,i+1,s,d);
-        }
-    }
-    vector<string> letterCombinations(string d) {
-        vector<string> a;        
-        if(d.size()==0)
-            return a;
-        vector<vector<char>>no;
-        no.push_back({'a','b','c'});
-        no.push_back({'d','e','f'});
-        no.push_back({'g','h','i'});
-        no.push_back({'j','k','l'});
-        no.push_back({'m','n','o'});
-        no.push_back({'p','q','r','s'});
-        no.push_back({'t','u','v'});
-        no.push_back({'w','x','y','z'});
-        string s;
-        s.resize(d.size());
-        int i=0;
-        help(no,a,i,s,d);
         return a;
     }
 };
