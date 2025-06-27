@@ -24,13 +24,12 @@ public:
     unordered_map<int,Node*>m;
     Node* cloneGraph(Node* node) {
         if(!node)return {};
-        int val=node->val;
+        int val = node->val;
         if(m.find(val)!=m.end())return m[val];
-        vector<Node*>p = node->neighbors;
+        Node* a= new Node(val);
+        m[val]=a;
         vector<Node*>n;
-        Node *a=new Node(val);
-        m[val]= a;
-        for(auto i: p){
+        for(auto i:node->neighbors){
             n.push_back(cloneGraph(i));
         }
         a->neighbors=n;
