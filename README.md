@@ -58,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0347-top-k-frequent-elements) |
 | [0424-longest-repeating-character-replacement](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0424-longest-repeating-character-replacement) |
 | [0560-subarray-sum-equals-k](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0560-subarray-sum-equals-k) |
+| [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 ## Sorting
 |  |
 | ------- |
@@ -180,6 +181,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0104-maximum-depth-of-binary-tree](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0226-invert-binary-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -193,6 +195,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0417-pacific-atlantic-water-flow](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0417-pacific-atlantic-water-flow) |
 | [0733-flood-fill](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0733-flood-fill) |
+| [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -204,6 +207,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0322-coin-change) |
 | [0417-pacific-atlantic-water-flow](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0417-pacific-atlantic-water-flow) |
 | [0733-flood-fill](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0733-flood-fill) |
+| [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 ## Binary Tree
 |  |
 | ------- |
@@ -211,6 +215,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0104-maximum-depth-of-binary-tree](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0226-invert-binary-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 ## Binary Search Tree
 |  |
 | ------- |
