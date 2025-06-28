@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0056-merge-intervals](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0057-insert-interval) |
 | [0078-subsets](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0079-word-search) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0153-find-minimum-in-rotated-sorted-array) |
@@ -74,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0020-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0076-minimum-window-substring) |
+| [0079-word-search](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0079-word-search) |
 | [0125-valid-palindrome](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0125-valid-palindrome) |
 | [0424-longest-repeating-character-replacement](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0424-longest-repeating-character-replacement) |
 ## Prefix Sum
@@ -179,6 +181,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0079-word-search) |
 | [0098-validate-binary-search-tree](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0098-validate-binary-search-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0133-clone-graph](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0133-clone-graph) |
@@ -216,6 +219,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0079-word-search](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0200-number-of-islands) |
 | [0417-pacific-atlantic-water-flow](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0417-pacific-atlantic-water-flow) |
 | [0733-flood-fill](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0733-flood-fill) |
@@ -230,6 +234,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0039-combination-sum](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0046-permutations) |
 | [0078-subsets](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0079-word-search) |
 ## Bit Manipulation
 |  |
 | ------- |
