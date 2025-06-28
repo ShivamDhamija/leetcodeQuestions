@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0015-3sum) |
 | [0033-search-in-rotated-sorted-array](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0033-search-in-rotated-sorted-array) |
 | [0039-combination-sum](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0039-combination-sum) |
+| [0042-trapping-rain-water](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0046-permutations) |
 | [0049-group-anagrams](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0053-maximum-subarray) |
@@ -36,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0005-longest-palindromic-substring) |
+| [0042-trapping-rain-water](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0053-maximum-subarray) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0198-house-robber](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0198-house-robber) |
@@ -86,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0005-longest-palindromic-substring) |
 | [0015-3sum](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0015-3sum) |
+| [0042-trapping-rain-water](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0042-trapping-rain-water) |
 | [0125-valid-palindrome](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0141-linked-list-cycle) |
 ## Divide and Conquer
@@ -107,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0020-valid-parentheses) |
+| [0042-trapping-rain-water](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0042-trapping-rain-water) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0155-min-stack) |
 | [0739-daily-temperatures](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0739-daily-temperatures) |
@@ -163,6 +167,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Monotonic Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0042-trapping-rain-water) |
 | [0739-daily-temperatures](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0739-daily-temperatures) |
 ## Tree
 |  |
