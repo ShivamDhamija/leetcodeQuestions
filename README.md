@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0005-longest-palindromic-substring) |
 | [0042-trapping-rain-water](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0053-maximum-subarray) |
+| [0070-climbing-stairs](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0198-house-robber](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0198-house-robber) |
 | [0322-coin-change](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0322-coin-change) |
@@ -168,6 +169,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0002-add-two-numbers) |
+| [0070-climbing-stairs](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0150-evaluate-reverse-polish-notation) |
 ## Monotonic Stack
 |  |
@@ -276,4 +278,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0212-word-search-ii](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0212-word-search-ii) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
