@@ -1,15 +1,10 @@
 class Solution {
-public:
-    vector<int>v;
-    int c(int n, int i)
-    {
-        if(i==n)return 1;
-        if(i>n)return 0;
-        if(v[i]!=-1)return v[i];
-        return v[i]=c(n,i+1)+c(n,i+2);
-    }
+public:   
+unordered_map<int,int>m;
     int climbStairs(int n) {
-        v.resize(n,-1);
-        return c(n,0);
+        if(n==0)return 1;
+        if(n<0)return 0;
+        if(m.find(n)!=m.end())return m[n];
+       return m[n]=climbStairs(n-1)+climbStairs(n-2);
     }
 };
