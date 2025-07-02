@@ -1,19 +1,19 @@
 class Solution {
 public:
-    vector<vector<int>>a;
-    vector<int>t;
-    void help(vector<int>&n,int i){
+    void help(vector<vector<int>>&a,vector<int>&n,vector<int> &s, int i){
         if(i==n.size()){
-            a.push_back(t);
-            return ;
+            a.push_back(s);
+            return;
         }
-        help(n,i+1);
-        t.push_back(n[i]);
-        help(n,i+1);
-        t.pop_back();
+        help(a,n,s,i+1);
+        s.push_back(n[i]);
+        help(a,n,s,i+1);
+        s.pop_back();
     }
     vector<vector<int>> subsets(vector<int>& nums) {
-        help(nums,0);
+        vector<vector<int>>a;
+        vector<int>s;
+        help(a,nums,s,0);
         return a;
     }
 };
