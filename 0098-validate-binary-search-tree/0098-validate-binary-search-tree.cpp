@@ -11,18 +11,16 @@
  */
 class Solution {
 public:
-    int a=1;
-    vector<long long> help(TreeNode* t){
-        if(!t)return {LONG_MAX,LONG_MIN};
-        vector<long long>l,r;
-        l=help(t->left);
-        r=help(t->right);
-        int val=t->val;
-        if(!(l[1]<val &&val<r[0]))a=0;
-        return {l[0]==LONG_MAX?val:l[0] , r[1]==LONG_MIN?val:r[1]}; 
+    vector<long long>help(TreeNode*n,int &a){
+        if(n==NULL)return {LONG_MAX,LONG_MIN};
+        vector<long long>l=help(n->left,a);
+        vector<long long>r=help(n->right,a);
+        if(n->val<=l[1]||n->val>=r[0])a=0;
+        return {l[0]==LONG_MAX?n->val:l[0],r[1]==LONG_MIN?n->val:r[1]};
     }
     bool isValidBST(TreeNode* root) {
-    help(root);
-    return a;    
+        int a=1;
+        help(root,a);
+        return a;
     }
 };
