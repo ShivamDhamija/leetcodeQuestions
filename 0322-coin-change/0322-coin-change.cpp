@@ -1,17 +1,15 @@
 class Solution {
-public:    
-    vector<vector<int>>m;
-    int help(vector<int>& coins, int amount,int i){
-        if(amount ==0)return 0;
-        if(amount<0 ||i==coins.size())return INT_MAX;
-        if(m[amount][i]!=-1)return m[amount][i];
-        int l=help(coins,amount, i+1);
-        int t=help(coins,amount-coins[i],i);        
-        return  m[amount][i]=min(l, t==INT_MAX?t:t+1); 
+public:
+    int help(vector<vector<int>>&v,vector<int>&c, int a, int i){
+        if(a==0)return 0;    
+        if(i==c.size()||a<0)return INT_MAX;
+        if(v[i][a]!=-1)return v[i][a];
+        int t=help(v,c,a-c[i],i);
+        return v[i][a]=min(help(v,c,a,i+1),t==INT_MAX?t:t+1);
     }
-    int coinChange(vector<int>& coins, int amount,int i=0) {
-        m.resize(amount+1,vector<int>(coins.size(),-1));
-        int a= help(coins,amount, 0);
+    int coinChange(vector<int>& coins, int amount) {
+        vector<vector<int>>v(coins.size(),vector<int>(amount+1,-1));
+        int a=help(v,coins,amount,0);
         return a==INT_MAX?-1:a;
     }
 };
