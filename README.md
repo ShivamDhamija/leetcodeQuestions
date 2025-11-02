@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0733-flood-fill) |
 | [0739-daily-temperatures](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0739-daily-temperatures) |
 | [0792-binary-search](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0792-binary-search) |
+| [0912-random-pick-with-weight](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0912-random-pick-with-weight) |
 | [1414-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/1414-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [2353-maximum-score-of-a-node-sequence](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2353-maximum-score-of-a-node-sequence) |
 ## Dynamic Programming
@@ -93,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0238-product-of-array-except-self](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0238-product-of-array-except-self) |
 | [0560-subarray-sum-equals-k](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0560-subarray-sum-equals-k) |
 | [0724-find-pivot-index](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0724-find-pivot-index) |
+| [0912-random-pick-with-weight](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0912-random-pick-with-weight) |
 ## Two Pointers
 |  |
 | ------- |
@@ -167,6 +169,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0209-minimum-size-subarray-sum) |
 | [0278-first-bad-version](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0278-first-bad-version) |
 | [0792-binary-search](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0792-binary-search) |
+| [0912-random-pick-with-weight](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0912-random-pick-with-weight) |
 ## Interactive
 |  |
 | ------- |
@@ -177,6 +180,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0002-add-two-numbers) |
 | [0070-climbing-stairs](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0912-random-pick-with-weight](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0912-random-pick-with-weight) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -295,4 +299,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2353-maximum-score-of-a-node-sequence](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2353-maximum-score-of-a-node-sequence) |
+## Randomized
+|  |
+| ------- |
+| [0912-random-pick-with-weight](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0912-random-pick-with-weight) |
 <!---LeetCode Topics End-->
