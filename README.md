@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0792-binary-search](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0792-binary-search) |
 | [0912-random-pick-with-weight](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0912-random-pick-with-weight) |
 | [1414-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/1414-shortest-path-in-a-grid-with-obstacles-elimination) |
+| [2067-maximum-number-of-points-with-cost](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2067-maximum-number-of-points-with-cost) |
 | [2353-maximum-score-of-a-node-sequence](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2353-maximum-score-of-a-node-sequence) |
 ## Dynamic Programming
 |  |
@@ -49,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0198-house-robber](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0198-house-robber) |
 | [0322-coin-change](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0322-coin-change) |
+| [2067-maximum-number-of-points-with-cost](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2067-maximum-number-of-points-with-cost) |
 ## Hash Table
 |  |
 | ------- |
@@ -247,6 +249,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0417-pacific-atlantic-water-flow](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0417-pacific-atlantic-water-flow) |
 | [0733-flood-fill](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0733-flood-fill) |
 | [1414-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/1414-shortest-path-in-a-grid-with-obstacles-elimination) |
+| [2067-maximum-number-of-points-with-cost](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2067-maximum-number-of-points-with-cost) |
 ## Graph
 |  |
 | ------- |
