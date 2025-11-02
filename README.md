@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0733-flood-fill) |
 | [0739-daily-temperatures](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0739-daily-temperatures) |
 | [0792-binary-search](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0792-binary-search) |
+| [1414-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/1414-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [2353-maximum-score-of-a-node-sequence](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2353-maximum-score-of-a-node-sequence) |
 ## Dynamic Programming
 |  |
@@ -214,6 +215,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0322-coin-change) |
 | [0417-pacific-atlantic-water-flow](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0417-pacific-atlantic-water-flow) |
 | [0733-flood-fill](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0733-flood-fill) |
+| [1414-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/1414-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 ## Binary Tree
 |  |
@@ -240,6 +242,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0212-word-search-ii](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0212-word-search-ii) |
 | [0417-pacific-atlantic-water-flow](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0417-pacific-atlantic-water-flow) |
 | [0733-flood-fill](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0733-flood-fill) |
+| [1414-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/1414-shortest-path-in-a-grid-with-obstacles-elimination) |
 ## Graph
 |  |
 | ------- |
