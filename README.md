@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0198-house-robber](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0198-house-robber) |
 | [0322-coin-change](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0322-coin-change) |
+| [0552-student-attendance-record-ii](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0552-student-attendance-record-ii) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2067-maximum-number-of-points-with-cost) |
 ## Hash Table
 |  |
