@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0739-daily-temperatures](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0739-daily-temperatures) |
 | [0792-binary-search](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0792-binary-search) |
 | [0912-random-pick-with-weight](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0912-random-pick-with-weight) |
+| [0936-rle-iterator](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0936-rle-iterator) |
 | [1414-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/1414-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2067-maximum-number-of-points-with-cost) |
 | [2206-detonate-the-maximum-bombs](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2206-detonate-the-maximum-bombs) |
@@ -138,6 +139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0155-min-stack](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0155-min-stack) |
+| [0936-rle-iterator](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0936-rle-iterator) |
 ## Queue
 |  |
 | ------- |
@@ -292,6 +294,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0347-top-k-frequent-elements) |
+| [0936-rle-iterator](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0936-rle-iterator) |
 ## Merge Sort
 |  |
 | ------- |
@@ -320,4 +323,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2206-detonate-the-maximum-bombs](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2206-detonate-the-maximum-bombs) |
+## Iterator
+|  |
+| ------- |
+| [0936-rle-iterator](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0936-rle-iterator) |
 <!---LeetCode Topics End-->
