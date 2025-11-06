@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0792-binary-search](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0792-binary-search) |
 | [0912-random-pick-with-weight](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0912-random-pick-with-weight) |
 | [0936-rle-iterator](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0936-rle-iterator) |
+| [1196-filling-bookcase-shelves](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/1196-filling-bookcase-shelves) |
 | [1414-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/1414-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2067-maximum-number-of-points-with-cost) |
 | [2206-detonate-the-maximum-bombs](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2206-detonate-the-maximum-bombs) |
@@ -54,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0198-house-robber](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0198-house-robber) |
 | [0322-coin-change](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0322-coin-change) |
 | [0552-student-attendance-record-ii](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0552-student-attendance-record-ii) |
+| [1196-filling-bookcase-shelves](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/1196-filling-bookcase-shelves) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2067-maximum-number-of-points-with-cost) |
 ## Hash Table
 |  |
