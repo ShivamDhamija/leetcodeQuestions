@@ -46,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2206-detonate-the-maximum-bombs](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2206-detonate-the-maximum-bombs) |
 | [2353-maximum-score-of-a-node-sequence](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2353-maximum-score-of-a-node-sequence) |
 | [2479-meeting-rooms-iii](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2479-meeting-rooms-iii) |
+| [2494-sum-of-prefix-scores-of-strings](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2494-sum-of-prefix-scores-of-strings) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -101,6 +102,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0212-word-search-ii](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0212-word-search-ii) |
 | [0424-longest-repeating-character-replacement](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0424-longest-repeating-character-replacement) |
 | [0539-minimum-time-difference](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0539-minimum-time-difference) |
+| [2494-sum-of-prefix-scores-of-strings](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2494-sum-of-prefix-scores-of-strings) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -303,6 +305,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0347-top-k-frequent-elements) |
 | [0936-rle-iterator](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0936-rle-iterator) |
+| [2494-sum-of-prefix-scores-of-strings](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2494-sum-of-prefix-scores-of-strings) |
 ## Merge Sort
 |  |
 | ------- |
@@ -315,6 +318,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0212-word-search-ii](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0212-word-search-ii) |
+| [2494-sum-of-prefix-scores-of-strings](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2494-sum-of-prefix-scores-of-strings) |
 ## Memoization
 |  |
 | ------- |
