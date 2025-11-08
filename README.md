@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1196-filling-bookcase-shelves](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/1196-filling-bookcase-shelves) |
 | [1414-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/1414-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [1710-find-servers-that-handled-most-number-of-requests](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/1710-find-servers-that-handled-most-number-of-requests) |
+| [1733-maximum-number-of-visible-points](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/1733-maximum-number-of-visible-points) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2067-maximum-number-of-points-with-cost) |
 | [2206-detonate-the-maximum-bombs](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2206-detonate-the-maximum-bombs) |
 | [2353-maximum-score-of-a-node-sequence](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2353-maximum-score-of-a-node-sequence) |
@@ -87,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0217-contains-duplicate) |
 | [0347-top-k-frequent-elements](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0347-top-k-frequent-elements) |
 | [0539-minimum-time-difference](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0539-minimum-time-difference) |
+| [1733-maximum-number-of-visible-points](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/1733-maximum-number-of-visible-points) |
 | [2353-maximum-score-of-a-node-sequence](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2353-maximum-score-of-a-node-sequence) |
 | [2479-meeting-rooms-iii](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2479-meeting-rooms-iii) |
 ## String
@@ -136,6 +138,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0209-minimum-size-subarray-sum) |
 | [0239-sliding-window-maximum](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0239-sliding-window-maximum) |
 | [0424-longest-repeating-character-replacement](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0424-longest-repeating-character-replacement) |
+| [1733-maximum-number-of-visible-points](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/1733-maximum-number-of-visible-points) |
 ## Stack
 |  |
 | ------- |
@@ -202,6 +205,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0150-evaluate-reverse-polish-notation](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0539-minimum-time-difference](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0539-minimum-time-difference) |
 | [0912-random-pick-with-weight](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0912-random-pick-with-weight) |
+| [1733-maximum-number-of-visible-points](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/1733-maximum-number-of-visible-points) |
 | [2206-detonate-the-maximum-bombs](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2206-detonate-the-maximum-bombs) |
 ## Monotonic Stack
 |  |
@@ -335,6 +339,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Geometry
 |  |
 | ------- |
+| [1733-maximum-number-of-visible-points](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/1733-maximum-number-of-visible-points) |
 | [2206-detonate-the-maximum-bombs](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2206-detonate-the-maximum-bombs) |
 ## Iterator
 |  |
