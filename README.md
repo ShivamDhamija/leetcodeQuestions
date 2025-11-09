@@ -154,6 +154,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0155-min-stack](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0155-min-stack) |
+| [0715-range-module](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0715-range-module) |
 | [0936-rle-iterator](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0936-rle-iterator) |
 ## Queue
 |  |
@@ -359,5 +360,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Ordered Set
 |  |
 | ------- |
+| [0715-range-module](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0715-range-module) |
 | [1710-find-servers-that-handled-most-number-of-requests](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/1710-find-servers-that-handled-most-number-of-requests) |
+## Segment Tree
+|  |
+| ------- |
+| [0715-range-module](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0715-range-module) |
 <!---LeetCode Topics End-->
