@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2353-maximum-score-of-a-node-sequence](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2353-maximum-score-of-a-node-sequence) |
 | [2479-meeting-rooms-iii](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2479-meeting-rooms-iii) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2494-sum-of-prefix-scores-of-strings) |
+| [2505-number-of-good-paths](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2505-number-of-good-paths) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -78,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0560-subarray-sum-equals-k) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 | [2479-meeting-rooms-iii](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2479-meeting-rooms-iii) |
+| [2505-number-of-good-paths](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2505-number-of-good-paths) |
 ## Sorting
 |  |
 | ------- |
@@ -91,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1733-maximum-number-of-visible-points](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/1733-maximum-number-of-visible-points) |
 | [2353-maximum-score-of-a-node-sequence](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2353-maximum-score-of-a-node-sequence) |
 | [2479-meeting-rooms-iii](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2479-meeting-rooms-iii) |
+| [2505-number-of-good-paths](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2505-number-of-good-paths) |
 ## String
 |  |
 | ------- |
@@ -220,6 +223,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0226-invert-binary-tree](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0226-invert-binary-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
+| [2505-number-of-good-paths](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2505-number-of-good-paths) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -266,6 +270,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0200-number-of-islands) |
+| [2505-number-of-good-paths](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2505-number-of-good-paths) |
 ## Matrix
 |  |
 | ------- |
@@ -283,6 +288,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0210-course-schedule-ii) |
 | [2206-detonate-the-maximum-bombs](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2206-detonate-the-maximum-bombs) |
 | [2353-maximum-score-of-a-node-sequence](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2353-maximum-score-of-a-node-sequence) |
+| [2505-number-of-good-paths](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2505-number-of-good-paths) |
 ## Backtracking
 |  |
 | ------- |
