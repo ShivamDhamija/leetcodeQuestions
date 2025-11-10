@@ -46,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2067-maximum-number-of-points-with-cost](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2067-maximum-number-of-points-with-cost) |
 | [2123-the-number-of-weak-characters-in-the-game](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2123-the-number-of-weak-characters-in-the-game) |
 | [2206-detonate-the-maximum-bombs](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2206-detonate-the-maximum-bombs) |
+| [2256-count-words-obtained-after-adding-a-letter](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2256-count-words-obtained-after-adding-a-letter) |
 | [2353-maximum-score-of-a-node-sequence](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2353-maximum-score-of-a-node-sequence) |
 | [2479-meeting-rooms-iii](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2479-meeting-rooms-iii) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2494-sum-of-prefix-scores-of-strings) |
@@ -78,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0347-top-k-frequent-elements) |
 | [0424-longest-repeating-character-replacement](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0424-longest-repeating-character-replacement) |
 | [0560-subarray-sum-equals-k](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0560-subarray-sum-equals-k) |
+| [2256-count-words-obtained-after-adding-a-letter](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2256-count-words-obtained-after-adding-a-letter) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 | [2479-meeting-rooms-iii](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2479-meeting-rooms-iii) |
 | [2505-number-of-good-paths](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2505-number-of-good-paths) |
@@ -93,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0539-minimum-time-difference](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0539-minimum-time-difference) |
 | [1733-maximum-number-of-visible-points](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/1733-maximum-number-of-visible-points) |
 | [2123-the-number-of-weak-characters-in-the-game](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2123-the-number-of-weak-characters-in-the-game) |
+| [2256-count-words-obtained-after-adding-a-letter](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2256-count-words-obtained-after-adding-a-letter) |
 | [2353-maximum-score-of-a-node-sequence](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2353-maximum-score-of-a-node-sequence) |
 | [2479-meeting-rooms-iii](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2479-meeting-rooms-iii) |
 | [2505-number-of-good-paths](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2505-number-of-good-paths) |
@@ -110,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0212-word-search-ii](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0212-word-search-ii) |
 | [0424-longest-repeating-character-replacement](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0424-longest-repeating-character-replacement) |
 | [0539-minimum-time-difference](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0539-minimum-time-difference) |
+| [2256-count-words-obtained-after-adding-a-letter](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2256-count-words-obtained-after-adding-a-letter) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2494-sum-of-prefix-scores-of-strings) |
 ## Prefix Sum
 |  |
@@ -307,6 +311,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0078-subsets](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0078-subsets) |
+| [2256-count-words-obtained-after-adding-a-letter](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2256-count-words-obtained-after-adding-a-letter) |
 ## Quickselect
 |  |
 | ------- |
