@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1710-find-servers-that-handled-most-number-of-requests](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/1710-find-servers-that-handled-most-number-of-requests) |
 | [1733-maximum-number-of-visible-points](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/1733-maximum-number-of-visible-points) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2067-maximum-number-of-points-with-cost) |
+| [2123-the-number-of-weak-characters-in-the-game](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2123-the-number-of-weak-characters-in-the-game) |
 | [2206-detonate-the-maximum-bombs](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2206-detonate-the-maximum-bombs) |
 | [2353-maximum-score-of-a-node-sequence](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2353-maximum-score-of-a-node-sequence) |
 | [2479-meeting-rooms-iii](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2479-meeting-rooms-iii) |
@@ -91,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0347-top-k-frequent-elements) |
 | [0539-minimum-time-difference](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0539-minimum-time-difference) |
 | [1733-maximum-number-of-visible-points](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/1733-maximum-number-of-visible-points) |
+| [2123-the-number-of-weak-characters-in-the-game](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2123-the-number-of-weak-characters-in-the-game) |
 | [2353-maximum-score-of-a-node-sequence](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2353-maximum-score-of-a-node-sequence) |
 | [2479-meeting-rooms-iii](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2479-meeting-rooms-iii) |
 | [2505-number-of-good-paths](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2505-number-of-good-paths) |
@@ -150,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0150-evaluate-reverse-polish-notation](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0155-min-stack) |
 | [0739-daily-temperatures](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0739-daily-temperatures) |
+| [2123-the-number-of-weak-characters-in-the-game](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2123-the-number-of-weak-characters-in-the-game) |
 ## Design
 |  |
 | ------- |
@@ -216,6 +219,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0042-trapping-rain-water](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0042-trapping-rain-water) |
 | [0739-daily-temperatures](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0739-daily-temperatures) |
+| [2123-the-number-of-weak-characters-in-the-game](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2123-the-number-of-weak-characters-in-the-game) |
 ## Tree
 |  |
 | ------- |
@@ -366,4 +370,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0715-range-module](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0715-range-module) |
+## Greedy
+|  |
+| ------- |
+| [2123-the-number-of-weak-characters-in-the-game](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2123-the-number-of-weak-characters-in-the-game) |
 <!---LeetCode Topics End-->
