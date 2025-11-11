@@ -218,6 +218,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0912-random-pick-with-weight](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0912-random-pick-with-weight) |
 | [1733-maximum-number-of-visible-points](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/1733-maximum-number-of-visible-points) |
 | [2206-detonate-the-maximum-bombs](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2206-detonate-the-maximum-bombs) |
+| [2266-minimum-cost-to-set-cooking-time](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2266-minimum-cost-to-set-cooking-time) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -347,6 +348,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Enumeration
 |  |
 | ------- |
+| [2266-minimum-cost-to-set-cooking-time](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2266-minimum-cost-to-set-cooking-time) |
 | [2353-maximum-score-of-a-node-sequence](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2353-maximum-score-of-a-node-sequence) |
 ## Randomized
 |  |
