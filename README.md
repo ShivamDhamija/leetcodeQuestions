@@ -46,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1733-maximum-number-of-visible-points](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/1733-maximum-number-of-visible-points) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2067-maximum-number-of-points-with-cost) |
 | [2123-the-number-of-weak-characters-in-the-game](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2123-the-number-of-weak-characters-in-the-game) |
+| [2146-check-if-word-can-be-placed-in-crossword](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2146-check-if-word-can-be-placed-in-crossword) |
 | [2206-detonate-the-maximum-bombs](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2206-detonate-the-maximum-bombs) |
 | [2256-count-words-obtained-after-adding-a-letter](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2256-count-words-obtained-after-adding-a-letter) |
 | [2353-maximum-score-of-a-node-sequence](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2353-maximum-score-of-a-node-sequence) |
@@ -295,6 +296,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0733-flood-fill) |
 | [1414-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/1414-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2067-maximum-number-of-points-with-cost) |
+| [2146-check-if-word-can-be-placed-in-crossword](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2146-check-if-word-can-be-placed-in-crossword) |
 ## Graph
 |  |
 | ------- |
@@ -352,6 +354,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Enumeration
 |  |
 | ------- |
+| [2146-check-if-word-can-be-placed-in-crossword](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2146-check-if-word-can-be-placed-in-crossword) |
 | [2266-minimum-cost-to-set-cooking-time](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2266-minimum-cost-to-set-cooking-time) |
 | [2353-maximum-score-of-a-node-sequence](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2353-maximum-score-of-a-node-sequence) |
 ## Randomized
