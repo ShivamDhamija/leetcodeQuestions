@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0733-flood-fill) |
 | [0739-daily-temperatures](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0739-daily-temperatures) |
 | [0792-binary-search](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0792-binary-search) |
+| [0873-guess-the-word](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0873-guess-the-word) |
 | [0912-random-pick-with-weight](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0912-random-pick-with-weight) |
 | [0936-rle-iterator](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0936-rle-iterator) |
 | [1196-filling-bookcase-shelves](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/1196-filling-bookcase-shelves) |
@@ -116,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0212-word-search-ii](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0212-word-search-ii) |
 | [0424-longest-repeating-character-replacement](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0424-longest-repeating-character-replacement) |
 | [0539-minimum-time-difference](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0539-minimum-time-difference) |
+| [0873-guess-the-word](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0873-guess-the-word) |
 | [2256-count-words-obtained-after-adding-a-letter](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2256-count-words-obtained-after-adding-a-letter) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2494-sum-of-prefix-scores-of-strings) |
 ## Prefix Sum
@@ -213,6 +215,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0278-first-bad-version](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0278-first-bad-version) |
+| [0873-guess-the-word](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0873-guess-the-word) |
 ## Math
 |  |
 | ------- |
@@ -220,6 +223,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0539-minimum-time-difference](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0539-minimum-time-difference) |
+| [0873-guess-the-word](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0873-guess-the-word) |
 | [0912-random-pick-with-weight](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0912-random-pick-with-weight) |
 | [1733-maximum-number-of-visible-points](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/1733-maximum-number-of-visible-points) |
 | [2206-detonate-the-maximum-bombs](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2206-detonate-the-maximum-bombs) |
@@ -391,4 +395,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [2123-the-number-of-weak-characters-in-the-game](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2123-the-number-of-weak-characters-in-the-game) |
 | [2279-maximum-split-of-positive-even-integers](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2279-maximum-split-of-positive-even-integers) |
+## Game Theory
+|  |
+| ------- |
+| [0873-guess-the-word](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0873-guess-the-word) |
 <!---LeetCode Topics End-->
