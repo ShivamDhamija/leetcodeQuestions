@@ -224,6 +224,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1733-maximum-number-of-visible-points](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/1733-maximum-number-of-visible-points) |
 | [2206-detonate-the-maximum-bombs](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2206-detonate-the-maximum-bombs) |
 | [2266-minimum-cost-to-set-cooking-time](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2266-minimum-cost-to-set-cooking-time) |
+| [2279-maximum-split-of-positive-even-integers](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2279-maximum-split-of-positive-even-integers) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -314,6 +315,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0079-word-search) |
 | [0212-word-search-ii](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0212-word-search-ii) |
+| [2279-maximum-split-of-positive-even-integers](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2279-maximum-split-of-positive-even-integers) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -388,4 +390,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2123-the-number-of-weak-characters-in-the-game](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2123-the-number-of-weak-characters-in-the-game) |
+| [2279-maximum-split-of-positive-even-integers](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2279-maximum-split-of-positive-even-integers) |
 <!---LeetCode Topics End-->
