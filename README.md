@@ -86,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0560-subarray-sum-equals-k) |
 | [1129-longest-string-chain](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/1129-longest-string-chain) |
 | [1249-snapshot-array](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/1249-snapshot-array) |
+| [2161-stock-price-fluctuation](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2161-stock-price-fluctuation) |
 | [2256-count-words-obtained-after-adding-a-letter](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2256-count-words-obtained-after-adding-a-letter) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 | [2479-meeting-rooms-iii](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2479-meeting-rooms-iii) |
@@ -175,6 +176,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0715-range-module](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0715-range-module) |
 | [0936-rle-iterator](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0936-rle-iterator) |
 | [1249-snapshot-array](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/1249-snapshot-array) |
+| [2161-stock-price-fluctuation](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2161-stock-price-fluctuation) |
 ## Queue
 |  |
 | ------- |
@@ -187,6 +189,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0239-sliding-window-maximum](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0239-sliding-window-maximum) |
 | [0347-top-k-frequent-elements](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0347-top-k-frequent-elements) |
 | [1710-find-servers-that-handled-most-number-of-requests](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/1710-find-servers-that-handled-most-number-of-requests) |
+| [2161-stock-price-fluctuation](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2161-stock-price-fluctuation) |
 | [2479-meeting-rooms-iii](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2479-meeting-rooms-iii) |
 ## Monotonic Queue
 |  |
@@ -392,6 +395,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0715-range-module](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0715-range-module) |
 | [1710-find-servers-that-handled-most-number-of-requests](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/1710-find-servers-that-handled-most-number-of-requests) |
+| [2161-stock-price-fluctuation](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2161-stock-price-fluctuation) |
 ## Segment Tree
 |  |
 | ------- |
@@ -405,4 +409,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0873-guess-the-word](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0873-guess-the-word) |
+## Data Stream
+|  |
+| ------- |
+| [2161-stock-price-fluctuation](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2161-stock-price-fluctuation) |
 <!---LeetCode Topics End-->
