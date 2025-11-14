@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0873-guess-the-word](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0873-guess-the-word) |
 | [0912-random-pick-with-weight](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0912-random-pick-with-weight) |
 | [0936-rle-iterator](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0936-rle-iterator) |
+| [1129-longest-string-chain](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/1129-longest-string-chain) |
 | [1196-filling-bookcase-shelves](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/1196-filling-bookcase-shelves) |
 | [1249-snapshot-array](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/1249-snapshot-array) |
 | [1414-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/1414-shortest-path-in-a-grid-with-obstacles-elimination) |
@@ -66,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0322-coin-change) |
 | [0552-student-attendance-record-ii](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0552-student-attendance-record-ii) |
 | [0836-race-car](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0836-race-car) |
+| [1129-longest-string-chain](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/1129-longest-string-chain) |
 | [1196-filling-bookcase-shelves](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/1196-filling-bookcase-shelves) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2067-maximum-number-of-points-with-cost) |
 ## Hash Table
@@ -82,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0347-top-k-frequent-elements) |
 | [0424-longest-repeating-character-replacement](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0424-longest-repeating-character-replacement) |
 | [0560-subarray-sum-equals-k](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0560-subarray-sum-equals-k) |
+| [1129-longest-string-chain](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/1129-longest-string-chain) |
 | [1249-snapshot-array](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/1249-snapshot-array) |
 | [2256-count-words-obtained-after-adding-a-letter](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2256-count-words-obtained-after-adding-a-letter) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
@@ -97,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0217-contains-duplicate) |
 | [0347-top-k-frequent-elements](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0347-top-k-frequent-elements) |
 | [0539-minimum-time-difference](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0539-minimum-time-difference) |
+| [1129-longest-string-chain](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/1129-longest-string-chain) |
 | [1733-maximum-number-of-visible-points](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/1733-maximum-number-of-visible-points) |
 | [2123-the-number-of-weak-characters-in-the-game](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2123-the-number-of-weak-characters-in-the-game) |
 | [2256-count-words-obtained-after-adding-a-letter](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2256-count-words-obtained-after-adding-a-letter) |
@@ -118,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0424-longest-repeating-character-replacement) |
 | [0539-minimum-time-difference](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0539-minimum-time-difference) |
 | [0873-guess-the-word](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0873-guess-the-word) |
+| [1129-longest-string-chain](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/1129-longest-string-chain) |
 | [2256-count-words-obtained-after-adding-a-letter](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2256-count-words-obtained-after-adding-a-letter) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/2494-sum-of-prefix-scores-of-strings) |
 ## Prefix Sum
@@ -136,6 +141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0042-trapping-rain-water) |
 | [0125-valid-palindrome](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/0141-linked-list-cycle) |
+| [1129-longest-string-chain](https://github.com/ShivamDhamija/leetcodeQuestions/tree/master/1129-longest-string-chain) |
 ## Divide and Conquer
 |  |
 | ------- |
